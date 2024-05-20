@@ -29,8 +29,9 @@ pip install pytest
 
 ## Contenido del proyecto:
 - "data.py": Archivo de configuración con los datos de prueba
-- "main.py": Archivo principal que contiene las clases de página y las pruebas automatizadas.
-
+- "main.py": Archivo principal que contiene las pruebas automatización para el flujo de la aplicación.
+- "urban_routes_page.py": Archivo que define la clase "UrbanRoutesPage", la cual contiene los selectores de elementos y métodos para interactuar con la aplicación.
+- "helpers.py": Archivo que contiene las funciones de ayuda para interactuar con la aplicación.
 ## Ejecución de Pruebas
 Para ejecutar las pruebas, simplemente utiliza el comando pytest en la terminal de comandos:
 ```
@@ -40,12 +41,11 @@ Asegúrate de estar en el directorio raíz del proyecto para ejecutar el comando
 Otra alternativa es utilizar el entorno "PyCharm" para correr las pruebas con Pytest.
 
 ## Pruebas Disponibles
- 1. Abrir Urban Routes en Chrome.
- 2. Establecer las direcciones de origen y destino.
- 3. Seleccionar la tarifa "Comfort".
- 4. Rellenar el número de teléfono.
- 5. Agregar tarjeta de crédito.
- 6. Escribir un mensaje para el controlador.
- 7. Pedir manta y pañuelos.
- 8. Pedir helados.
- 9. Buscar un taxi.
+ 1. Establecer las direcciones de origen y destino.
+ 2. Seleccionar la tarifa "Comfort".
+ 3. Rellenar el número de teléfono.
+ 4. Agregar tarjeta de crédito.
+ 5. Escribir un mensaje para el controlador.
+ 6. Pedir manta y pañuelos.
+ 7. Pedir helados.
+ 8. Buscar un taxi.
